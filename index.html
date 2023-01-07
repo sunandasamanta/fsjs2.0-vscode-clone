@@ -50,8 +50,8 @@
 <body class="font-heebo">
   <main class="">
     <section class="bg-gray-900 sticky top-0">
-      <nav class="w-2/3 mx-auto flex relative h-14">
-        <ul class="flex py-4">
+      <nav class="w-2/3 mx-auto items-center flex relative">
+        <ul class="flex py-4 items-center">
           <li class="px-2 text-xl text-white">
             <a class="flex" href="https://github.com/sunandasamanta/fsjs2.0-vscode-clone"><img class="w-10 px-2"
                 src="./Assets/logo.png" alt="logo" />Visual Studio Code</a>
@@ -77,11 +77,13 @@
       </nav>
     </section>
     <section>
-      <div class="bg-secondary h-10">
-        <p class="text-center text-gray-200 py-2">
-          <span class="text-blue-500">Version 1.74</span> is now available!
-          Read about the new features and fixes from Novermber.
-        </p>
+      <div class="bg-secondary">
+        <a href="https://code.visualstudio.com/updates">
+          <p class="text-center text-gray-200 py-3">
+            <span class="text-blue-500 hover:underline hover:cursor-pointer">Version 1.74</span> is now available!
+            Read about the new features and fixes from Novermber.
+          </p>
+        </a>
       </div>
     </section>
     <section class="bg-vsnav pt-10 pb-16">
@@ -95,19 +97,19 @@
           <div class="flex pt-4">
             <a href="https://code.visualstudio.com/docs/?dv=linux64_deb">
               <button class="h-16 bg-blue-700 px-4 mr-1 hover:bg-blue-900">
-              <h2 class="bg-[url(./Assets/download.svg)] bg-20 bg-left bg-no-repeat w-2/3 mx-auto">
-                .deb
-              </h2>
-              <p class="font-light">Debian, Ubuntu...</p>
-            </button>
-            </a>            
+                <h2 class="bg-[url(./Assets/download.svg)] bg-20 bg-left bg-no-repeat w-2/3 mx-auto">
+                  .deb
+                </h2>
+                <p class="font-light">Debian, Ubuntu...</p>
+              </button>
+            </a>
             <a href="https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions">
               <button class="h-16 bg-blue-700 px-4 mr-1 hover:bg-blue-900">
-              <h2 class="bg-[url(./Assets/download.svg)] bg-20 bg-left bg-no-repeat w-2/3 mx-auto">
-                .rpm
-              </h2>
-              <p class="font-light">Red Hat, Fedora...</p>
-            </button>
+                <h2 class="bg-[url(./Assets/download.svg)] bg-20 bg-left bg-no-repeat w-2/3 mx-auto">
+                  .rpm
+                </h2>
+                <p class="font-light">Red Hat, Fedora...</p>
+              </button>
             </a>
             <button
               class="h-16 w-10 bg-blue-700 bg-[url(./Assets/chevronDown.svg)] bg-50 bg-center bg-no-repeat hover:bg-blue-900">
@@ -130,7 +132,7 @@
       </div>
     </section>
     <section class="bg-white">
-      <div class="w-3/5 flex mx-auto h-32">        
+      <div class="w-3/5 flex mx-auto h-32">
         <div class="w-1/4 hover:bg-zinc-300">
           <div class="bg-[url(./Assets/IntelliSense.svg)] h-16 bg-center bg-contain bg-no-repeat my-3"></div>
           <h2 class="text-center font-normal text-xl text-gray-700">IntelliSense</h2>
@@ -157,7 +159,8 @@
           </div>
           <div>
             <h3 class="font-bold text-md text-black">Una Kravets <span class="font-normal">@Una</span></h3>
-            <p>VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
+            <p>VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user
+              preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
           </div>
         </div>
         <div class="flex w-1/4 mx-auto">
@@ -166,7 +169,8 @@
           </div>
           <div>
             <h3 class="font-bold text-md text-black">Jonathan Dunlap <span class="font-normal">@jadbox</span></h3>
-            <p>VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥</p>
+            <p>VS Code will have deep remote development. You can connect to a container running a different OS and use
+              any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥</p>
           </div>
         </div>
         <div class="flex w-1/4 mx-auto">
@@ -175,7 +179,8 @@
           </div>
           <div>
             <h3 class="font-bold text-md text-black">Pavithra Kodmad <span class="font-normal">@PKodmad</span></h3>
-            <p>VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!</p>
+            <p>VS Code is my most used and favorite editor. I love being able to customize the editor - changing the
+              layout, the icons, fonts and color scheme is so easy!</p>
           </div>
         </div>
       </div>
@@ -186,7 +191,8 @@
           <div class="w-1/3 mx-auto bg-[url(./Assets/home-intellisense.svg)] bg-contain bg-center bg-no-repeat"></div>
           <article class="w-1/2">
             <h1 class="text-3xl mb-10 font-light">Meet IntelliSense.</h1>
-            <p>Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
+            <p>Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based
+              on variable types, function definitions, and imported modules.</p>
           </article>
         </div>
       </div>
@@ -194,7 +200,8 @@
         <div class="flex text-left w-2/3 mx-auto h-64">
           <article class="w-1/2">
             <h1 class="text-3xl mb-10 font-light">Print statement debugging is a thing of the past.</h1>
-            <p>Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
+            <p>Debug code right from the editor. Launch or attach to your running apps and debug with break points, call
+              stacks, and an interactive console.</p>
           </article>
           <div class="w-1/3 mx-auto bg-[url(./Assets/home-debug.svg)] bg-contain bg-center bg-no-repeat"></div>
         </div>
@@ -204,7 +211,8 @@
           <div class="w-1/3 mx-auto bg-[url(./Assets/home-git.svg)] bg-contain bg-center bg-no-repeat"></div>
           <article class="w-1/2">
             <h1 class="text-3xl mb-10 font-light">Git commands built-in.</h1>
-            <p>Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+            <p>Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make
+              commits right from the editor. Push and pull from any hosted SCM service.</p>
           </article>
         </div>
       </div>
@@ -212,9 +220,14 @@
         <div class="flex text-left w-2/3 mx-auto h-64">
           <article class="w-1/2">
             <h1 class="text-3xl mb-10 font-light">Extensible and customizable.</h1>
-            <p>Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. <a class="text-blue-500 hover:underline" href="https://code.visualstudio.com/docs/editor/extension-marketplace" target="_blank">Learn more about extensions.</a></p>
+            <p>Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to
+              additional services. Extensions run in separate processes, ensuring they won't slow down your editor. <a
+                class="text-blue-500 hover:underline"
+                href="https://code.visualstudio.com/docs/editor/extension-marketplace" target="_blank">Learn more about
+                extensions.</a></p>
           </article>
-          <div class="w-1/3 mx-auto bg-[url(./Assets/Hundreds-of-Extensions.png)] bg-contain bg-center bg-no-repeat"></div>
+          <div class="w-1/3 mx-auto bg-[url(./Assets/Hundreds-of-Extensions.png)] bg-contain bg-center bg-no-repeat">
+          </div>
         </div>
       </div>
       <div class="w-full py-20">
@@ -222,7 +235,12 @@
           <div class="w-1/3 mx-auto bg-[url(./Assets/home-azure.svg)] bg-contain bg-center bg-no-repeat"></div>
           <article class="w-1/2">
             <h1 class="text-3xl mb-10 font-light">Deploy with confidence and ease</h1>
-            <p>With <a class="text-blue-500 hover:underline" href="https://azure.microsoft.com/" target="_blank">Microsoft Azure</a> you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, <a class="text-blue-500 hover:underline" href="https://code.visualstudio.com/docs/azure/extensions" target="_blank">all from within VS Code</a>.</p>
+            <p>With <a class="text-blue-500 hover:underline" href="https://azure.microsoft.com/"
+                target="_blank">Microsoft Azure</a> you can deploy and host your React, Angular, Vue, Node, Python (and
+              more!) sites, store and query relational and document based data, and scale with serverless computing, all
+              with ease, <a class="text-blue-500 hover:underline"
+                href="https://code.visualstudio.com/docs/azure/extensions" target="_blank">all from within VS Code</a>.
+            </p>
           </article>
         </div>
       </div>
@@ -234,24 +252,123 @@
         </div>
         <div>
           <div class="flex py-8">
-            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/Javascript.png" alt="JavaScript"><span class="text-center">JavaScript</span></div>
-            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/python_sredniozaawansowany.png" alt="Python"><span class="text-center">Python</span></div>
-            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/java.svg" alt="Java"><span class="text-center">Java</span></div>
-            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/markdown.png" alt="Markdown"><span class="text-center">Markdown</span></div>
-            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/Typescripts.png" alt="TypeScript"><span class="text-center">TypeScript</span></div>
-            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/cpp.svg" alt="CPP"><span class="text-center">C/C++</span></div>
+            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/Javascript.png" alt="JavaScript"><span
+                class="text-center">JavaScript</span></div>
+            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/python_sredniozaawansowany.png"
+                alt="Python"><span class="text-center">Python</span></div>
+            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/java.svg" alt="Java"><span
+                class="text-center">Java</span></div>
+            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/markdown.png" alt="Markdown"><span
+                class="text-center">Markdown</span></div>
+            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/Typescripts.png" alt="TypeScript"><span
+                class="text-center">TypeScript</span></div>
+            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/cpp.svg" alt="CPP"><span
+                class="text-center">C/C++</span></div>
           </div>
           <div class="flex">
-            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/json.svg" alt="Json"><span class="text-center">JSON</span></div>
-            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/powershell.jpg" alt="powershell"><span class="text-center">Powershell</span></div>
-            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/html.svg" alt="HTML-CSS"><span class="text-center">HTML/CSS</span></div>
-            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/csharp.svg" alt="C#"><span class="text-center">C#</span></div>
-            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/php.png" alt="php"><span class="text-center">PHP</span></div>
-            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/yaml.svg" alt="yaml"><span class="text-center">C/C++</span></div>
+            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/json.svg" alt="Json"><span
+                class="text-center">JSON</span></div>
+            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/powershell.jpg" alt="powershell"><span
+                class="text-center">Powershell</span></div>
+            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/html.svg" alt="HTML-CSS"><span
+                class="text-center">HTML/CSS</span></div>
+            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/csharp.svg" alt="C#"><span
+                class="text-center">C#</span></div>
+            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/php.png" alt="php"><span
+                class="text-center">PHP</span></div>
+            <div class="w-1/6 mx-auto flex"><img class="w-8 px-1" src="./Assets/yaml.svg" alt="yaml"><span
+                class="text-center">C/C++</span></div>
+          </div>
+          <div class="text-center py-8">
+            <a
+              href="https://marketplace.visualstudio.com/search?target=VSCode&category=Programming%20Languages&sortBy=Installs"><span
+                class="text-sky-600 hover:underline text-md">and many more languages on the Marketplace...</span></a>
           </div>
         </div>
-        <div></div>
+        <div class="w-max mx-auto pt-6 pb-10">
+          <a href="https://code.visualstudio.com/docs">
+            <button class="py-4 px-6 items-center text-white font-bold text-xl bg-sky-600 hover:bg-sky-700">Get Started
+              now</button>
+          </a>
+        </div>
       </div>
+    </section>
+    <section>
+      <div class="flex w-2/3 mx-auto">
+        <div class="w-1/3 text-white">
+          <div class="w-max mx-auto">
+            <div class="bg-[url(./Assets/Windows-logo.png)] my-8 h-32 bg-contain bg-center bg-no-repeat"></div>
+            <div class="items-center text-center">
+              <button class="bg-blue-700 px-16 hover:bg-blue-900">
+                <div class="bg-[url(./Assets/download.svg)] bg-16 bg-left bg-no-repeat py-1 w-full">
+                  <h2 class="w-full text-right text-xl">Windows</h2>
+                </div>
+                <p class="font-light">Windows 8, 10, 11</p>
+              </button>
+            </div>
+            <div></div>
+          </div>
+        </div>
+        <div class="w-1/3 text-white">
+          <div class="w-max mx-auto">
+            <div class="bg-[url(./Assets/Linux-logo.jpg)] my-8 h-32 bg-contain bg-center bg-no-repeat"></div>
+            <div>
+              <a href="https://code.visualstudio.com/docs/?dv=linux64_deb">
+                <button class="h-16 bg-blue-700 px-4 mr-1 py-1 hover:bg-blue-900">
+                  <h2 class="bg-[url(./Assets/download.svg)] bg-20 bg-left bg-no-repeat w-2/3 mx-auto">
+                    .deb
+                  </h2>
+                  <p class="font-light">Debian, Ubuntu...</p>
+                </button>
+              </a>
+              <a href="https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions">
+                <button class="h-16 bg-blue-700 px-4 mr-1 py-1 hover:bg-blue-900">
+                  <h2 class="bg-[url(./Assets/download.svg)] bg-20 bg-left bg-no-repeat w-2/3 mx-auto">
+                    .rpm
+                  </h2>
+                  <p class="font-light">Red Hat, Fedora...</p>
+                </button>
+              </a>
+            </div>
+            <div></div>
+          </div>
+        </div>
+        <div class="w-1/3 text-white">
+          <div class="w-max mx-auto">
+            <div class="bg-[url(./Assets/Mac.png)] my-8 h-32 bg-contain bg-center bg-no-repeat"></div>
+            <div class="items-center text-center">
+              <button class="bg-blue-700 px-16 mr-1 hover:bg-blue-900">
+                <div class="bg-[url(./Assets/download.svg)] bg-16 bg-left bg-no-repeat py-1 w-full">
+                  <h2 class="w-full text-right text-xl">Mac</h2>
+                </div>
+                <p class="font-light">macOS 10.11+</p>
+              </button>
+            </div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-zinc-200 w-full">
+      <div class="w-2/3 mx-auto py-16">
+        <div class="flex pb-10">
+          <div class="w-1/4 mx-auto">
+            <h1 class="font-bold text-xl py-2 text-center text-[#444]">Want new features sooner?</h1>
+            <p class="text-[#444] text-center">Get the <a class="text-blue-500 hover:underline hover:text-blue-600" href="https://code.visualstudio.com/insiders">Insiders build</a> instead.</p>
+          </div>
+          <div class="w-1/4 mx-auto">
+            <h1 class="font-bold text-xl py-2 text-center text-[#444]">Use <a class="text-blue-500 hover:underline hover:text-blue-600" href="https://vscode.dev/">vscode.dev</a> for quick edits online!</h1>
+            <p class="text-[#444] text-center">GitHub, Azure Repos, and local files.</p>
+          </div>
+        </div>
+        <article class="w-1/2 mx-auto text-center">
+          <h1 class="text-[#444] font-light text-md leading-10">LICENSE AND PRIVACY TERMS</h1>
+          <p class="font-light text-[#444] text-sm leading-10">By downloading and using Visual Studio Code, you agree to the license terms and privacy statement. VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see How to Disable Crash Reporting to learn how to disable it.</p>
+        </article>
+      </div>
+    </section>
+    <section class="bg-[#333] w-full h-24">
+      <div class="w-2/3 mx-auto"></div>
     </section>
   </main>
 </body>
