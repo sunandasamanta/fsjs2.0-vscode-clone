@@ -49,7 +49,7 @@
 
 <body class="font-heebo">
   <main class="">
-    <section class="bg-vsnav sticky">
+    <section class="bg-gray-900 sticky top-0">
       <nav class="w-2/3 mx-auto flex relative h-14">
         <ul class="flex py-4">
           <li class="px-2 text-xl text-white">
@@ -70,7 +70,7 @@
               class="py-3 pl-8 bg-[url(./Assets/search.svg)] bg-20 bg-left bg-no-repeat mr-1 w-36 text-center bg-zinc-800 border border-gray-500 h-14 focus:outline-none hover:bg-zinc-600"
               type="search" name="" id="" placeholder="Search Docs" />
             <button class="px-6 bg-blue-700 text-white font-bold h-14 hover:bg-blue-800">
-              Download
+              <a class="flex" href="https://github.com/sunandasamanta/fsjs2.0-vscode-clone">Download</a>
             </button>
           </form>
         </div>
@@ -125,18 +125,53 @@
       </div>
     </section>
     <section class="bg-white">
-      <div class="w-3/5 flex mx-auto">
-        <div class="w-1/4">
+      <div class="w-3/5 flex mx-auto h-32">        
+        <div class="w-1/4 hover:bg-zinc-300">
+          <div class="bg-[url(./Assets/IntelliSense.svg)] h-16 bg-center bg-contain bg-no-repeat my-3"></div>
           <h2 class="text-center font-normal text-xl text-gray-700">IntelliSense</h2>
         </div>
-        <div class="w-1/4">
+        <div class="w-1/4 hover:bg-zinc-300">
+          <div class="bg-[url(./Assets/Debug.svg)] h-16 bg-contain bg-center bg-no-repeat my-3"></div>
           <h2 class="text-center font-normal text-xl text-gray-700">Run and Debug</h2>
         </div>
-        <div class="w-1/4">
+        <div class="w-1/4 hover:bg-zinc-300">
+          <div class="bg-[url(./Assets/Git.svg)] h-16 bg-center bg-contain bg-no-repeat my-3"></div>
           <h2 class="text-center font-normal text-xl text-gray-700">Built-in Git</h2>
         </div>
-        <div class="w-1/4 img4">
+        <div class="w-1/4 hover:bg-zinc-300">
+          <div class="bg-[url(./Assets/Extensions.svg)] h-16 bg-center bg-no-repeat my-3"></div>
           <h2 class="text-center font-normal text-xl text-gray-700">Extensions</h2>
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray-100">
+      <div class="w-2/3 mx-auto flex py-20 text-gray-800">
+        <div class="flex w-1/4 mx-auto">
+          <div>
+            <img class="rounded-full pr-2" src="./Assets/Una.jpg" alt="Una">
+          </div>
+          <div>
+            <h3 class="font-bold text-md text-black">Una Kravets <span class="font-normal">@Una</span></h3>
+            <p>VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
+          </div>
+        </div>
+        <div class="flex w-1/4 mx-auto">
+          <div>
+            <img class="rounded-full pr-2" src="./Assets/jadbox.jpg" alt="jadbox">
+          </div>
+          <div>
+            <h3 class="font-bold text-md text-black">Jonathan Dunlap <span class="font-normal">@jadbox</span></h3>
+            <p>VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥</p>
+          </div>
+        </div>
+        <div class="flex w-1/4 mx-auto">
+          <div>
+            <img class="rounded-full pr-2" src="./Assets/PKodmad.jpg" alt="PKodmad">
+          </div>
+          <div>
+            <h3 class="font-bold text-md text-black">Pavithra Kodmad <span class="font-normal">@PKodmad</span></h3>
+            <p>VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!</p>
+          </div>
         </div>
       </div>
     </section>
